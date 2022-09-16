@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="1" name="com.tests.LoginTest" time="0.12" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="10.0.1+10"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Rahul\IdeaProjects\Log4jAPICode"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Rahul\IdeaProjects\Log4jAPICode"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="10.0.1+10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Rahul\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Rahul\OneDrive\Desktop\selenium\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-10.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-10.0.1\bin;C:\Program Files\Java\jre-10.0.1\bin;C:\Users\Rahul\OneDrive\Desktop\selenium\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Users\Rahul\AppData\Local\Microsoft\WindowsApps;C:\Users\Rahul\AppData\Roaming\npm;C:\Users\Rahul\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Rahul\Documents\jdk-11.0.15\bin;C:\Users\Rahul\AppData\Local\JetBrains\IntelliJ IDEA 2022.1.1\bin;;;."/>
+    <property name="maven.conf" value="C:\Users\Rahul\OneDrive\Desktop\selenium\apache-maven-3.8.6-bin\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\Rahul\OneDrive\Desktop\selenium\apache-maven-3.8.6-bin\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Rahul"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="Rahul"/>
+    <property name="java.class.path" value="C:\Users\Rahul\OneDrive\Desktop\selenium\apache-maven-3.8.6-bin\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-10.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Users\Rahul\OneDrive\Desktop\selenium\apache-maven-3.8.6-bin\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-04-17"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.tests.LoginTest" name="freeCrmTitleTest" time="0.04">
+    <failure message="expected [Facebook â€“ log in or sign up] but found [Facebook – log in or sign up]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Facebook â€“ log in or sign up] but found [Facebook – log in or sign up]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.tests.LoginTest.freeCrmTitleTest(LoginTest.java:45)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@43738a82
+09-05-2022 09:57:48 LoginTest.java INFO  [main] tests.LoginTest 20 - ****************************** Starting test cases execution  *****************************************
+09-05-2022 09:57:48 InternalLoggerFactory.java DEBUG [main] logging.InternalLoggerFactory 89 - Using Log4J as the default logging framework
+09-05-2022 09:57:48 ResourceLeakDetector.java DEBUG [main] util.ResourceLeakDetector 129 - -Dio.netty.leakDetection.level: simple
+09-05-2022 09:57:48 ResourceLeakDetector.java DEBUG [main] util.ResourceLeakDetector 130 - -Dio.netty.leakDetection.targetRecords: 4
+09-05-2022 09:57:48 ResourceLeakDetectorFactory.java DEBUG [main] util.ResourceLeakDetectorFactory 196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5ddcc487
+09-05-2022 09:57:48 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 460 - -Dio.netty.noUnsafe: false
+09-05-2022 09:57:48 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 954 - Java version: 10
+09-05-2022 09:57:48 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 135 - sun.misc.Unsafe.theUnsafe: available
+09-05-2022 09:57:48 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 159 - sun.misc.Unsafe.copyMemory: available
+09-05-2022 09:57:48 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 202 - java.nio.Buffer.address: available
+09-05-2022 09:57:48 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+09-05-2022 09:57:48 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 350 - java.nio.Bits.unaligned: available, true
+09-05-2022 09:57:48 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @6ccdb29f
+09-05-2022 09:57:48 PlatformDependent0.java DEBUG [main] internal.PlatformDependent0 446 - java.nio.DirectByteBuffer.&lt;init&gt;(long, int): unavailable
+09-05-2022 09:57:48 PlatformDependent.java DEBUG [main] internal.PlatformDependent 1116 - sun.misc.Unsafe: available
+09-05-2022 09:57:48 PlatformDependent.java DEBUG [main] internal.PlatformDependent 1227 - maxDirectMemory: 2078277632 bytes (maybe)
+09-05-2022 09:57:48 PlatformDependent.java DEBUG [main] internal.PlatformDependent 1246 - -Dio.netty.tmpdir: C:\Users\Rahul\AppData\Local\Temp (java.io.tmpdir)
+09-05-2022 09:57:48 PlatformDependent.java DEBUG [main] internal.PlatformDependent 1325 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+09-05-2022 09:57:48 PlatformDependent.java DEBUG [main] internal.PlatformDependent 1076 - Platform: Windows
+09-05-2022 09:57:48 PlatformDependent.java DEBUG [main] internal.PlatformDependent 178 - -Dio.netty.maxDirectMemory: -1 bytes
+09-05-2022 09:57:48 PlatformDependent.java DEBUG [main] internal.PlatformDependent 185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+09-05-2022 09:57:48 CleanerJava9.java DEBUG [main] internal.CleanerJava9 71 - java.nio.ByteBuffer.cleaner(): available
+09-05-2022 09:57:48 PlatformDependent.java DEBUG [main] internal.PlatformDependent 205 - -Dio.netty.noPreferDirect: false
+09-05-2022 09:57:48 PlatformDependent.java DEBUG [main] internal.PlatformDependent 967 - org.jctools-core.MpscChunkedArrayQueue: available
+09-05-2022 09:57:48 InternalThreadLocalMap.java DEBUG [main] internal.InternalThreadLocalMap 86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+09-05-2022 09:57:48 InternalThreadLocalMap.java DEBUG [main] internal.InternalThreadLocalMap 89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+09-05-2022 09:57:48 JdkSslContext.java DEBUG [main] ssl.JdkSslContext 97 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+09-05-2022 09:57:48 JdkSslContext.java DEBUG [main] ssl.JdkSslContext 98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+09-05-2022 09:57:48 MultithreadEventLoopGroup.java DEBUG [main] channel.MultithreadEventLoopGroup 44 - -Dio.netty.eventLoopThreads: 16
+09-05-2022 09:57:48 NioEventLoop.java DEBUG [main] nio.NioEventLoop 109 - -Dio.netty.noKeySetOptimization: false
+09-05-2022 09:57:48 NioEventLoop.java DEBUG [main] nio.NioEventLoop 110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+09-05-2022 09:57:49 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 157 - -Dio.netty.allocator.numHeapArenas: 16
+09-05-2022 09:57:49 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 158 - -Dio.netty.allocator.numDirectArenas: 16
+09-05-2022 09:57:49 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 160 - -Dio.netty.allocator.pageSize: 8192
+09-05-2022 09:57:49 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 165 - -Dio.netty.allocator.maxOrder: 9
+09-05-2022 09:57:49 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 169 - -Dio.netty.allocator.chunkSize: 4194304
+09-05-2022 09:57:49 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 170 - -Dio.netty.allocator.smallCacheSize: 256
+09-05-2022 09:57:49 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 171 - -Dio.netty.allocator.normalCacheSize: 64
+09-05-2022 09:57:49 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+09-05-2022 09:57:49 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+09-05-2022 09:57:49 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+09-05-2022 09:57:49 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 175 - -Dio.netty.allocator.useCacheForAllThreads: false
+09-05-2022 09:57:49 PooledByteBufAllocator.java DEBUG [main] buffer.PooledByteBufAllocator 176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+09-05-2022 09:57:49 ByteBufUtil.java DEBUG [main] buffer.ByteBufUtil 87 - -Dio.netty.allocator.type: pooled
+09-05-2022 09:57:49 ByteBufUtil.java DEBUG [main] buffer.ByteBufUtil 96 - -Dio.netty.threadLocalDirectBufferSize: 0
+09-05-2022 09:57:49 ByteBufUtil.java DEBUG [main] buffer.ByteBufUtil 99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+09-05-2022 09:57:51 DefaultChannelId.java DEBUG [Forwarding newSession on session null to remote] channel.DefaultChannelId 79 - -Dio.netty.processId: 3548 (auto-detected)
+09-05-2022 09:57:51 NetUtil.java DEBUG [Forwarding newSession on session null to remote] util.NetUtil 136 - -Djava.net.preferIPv4Stack: false
+09-05-2022 09:57:51 NetUtil.java DEBUG [Forwarding newSession on session null to remote] util.NetUtil 137 - -Djava.net.preferIPv6Addresses: false
+09-05-2022 09:57:51 NetUtilInitializations.java DEBUG [Forwarding newSession on session null to remote] util.NetUtilInitializations 129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+09-05-2022 09:57:51 NetUtil.java DEBUG [Forwarding newSession on session null to remote] util.NetUtil 191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+09-05-2022 09:57:51 DefaultChannelId.java DEBUG [Forwarding newSession on session null to remote] channel.DefaultChannelId 101 - -Dio.netty.machineId: 38:d5:7a:ff:fe:53:2a:5d (auto-detected)
+09-05-2022 09:57:51 AbstractByteBuf.java DEBUG [AsyncHttpClient-1-2] buffer.AbstractByteBuf 63 - -Dio.netty.buffer.checkAccessible: true
+09-05-2022 09:57:51 AbstractByteBuf.java DEBUG [AsyncHttpClient-1-2] buffer.AbstractByteBuf 64 - -Dio.netty.buffer.checkBounds: true
+09-05-2022 09:57:51 ResourceLeakDetectorFactory.java DEBUG [AsyncHttpClient-1-2] util.ResourceLeakDetectorFactory 196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@768f2409
+09-05-2022 09:57:51 Recycler.java DEBUG [AsyncHttpClient-1-2] util.Recycler 85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+09-05-2022 09:57:51 Recycler.java DEBUG [AsyncHttpClient-1-2] util.Recycler 86 - -Dio.netty.recycler.ratio: 8
+09-05-2022 09:57:51 Recycler.java DEBUG [AsyncHttpClient-1-2] util.Recycler 87 - -Dio.netty.recycler.chunkSize: 32
+09-05-2022 09:57:51 Recycler.java DEBUG [AsyncHttpClient-1-2] util.Recycler 88 - -Dio.netty.recycler.blocking: false
+09-05-2022 09:57:53 Brotli.java DEBUG [AsyncHttpClient-1-2] compression.Brotli 38 - brotli4j not in the classpath; Brotli support will be unavailable.
+09-05-2022 09:57:53 ThreadLocalRandom.java DEBUG [main] internal.ThreadLocalRandom 214 - -Dio.netty.initialSeedUniquifier: 0x8d579eab0b253106
+09-05-2022 09:57:53 LoginTest.java INFO  [main] tests.LoginTest 24 - launching chrome broswer
+09-05-2022 09:57:56 LoginTest.java INFO  [main] tests.LoginTest 31 - entering application URL
+09-05-2022 09:57:56 LoginTest.java WARN  [main] tests.LoginTest 32 - Hey this just a warning message
+09-05-2022 09:57:56 LoginTest.java FATAL [main] tests.LoginTest 33 - hey this is just fatal error message
+09-05-2022 09:57:56 LoginTest.java DEBUG [main] tests.LoginTest 34 - this is debug message
+09-05-2022 09:57:56 LoginTest.java INFO  [main] tests.LoginTest 40 - ****************************** starting test case *****************************************
+09-05-2022 09:57:56 LoginTest.java INFO  [main] tests.LoginTest 41 - ****************************** freeCrmTitleTest *****************************************
+Facebook – log in or sign up
+09-05-2022 09:57:56 LoginTest.java INFO  [main] tests.LoginTest 44 - login page title is---&gt;Facebook – log in or sign up
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 52138
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1662352072.355][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+Sep 05, 2022 9:57:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Sep 05, 2022 9:57:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 105, so returning the closest version found: 101
+Sep 05, 2022 9:57:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 105 of 101
+</system-err>
+  </testcase>
+  <testcase classname="com.tests.LoginTest" name="freemCRMLogoTest" time="0.08"/>
+</testsuite>

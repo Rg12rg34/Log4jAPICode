@@ -1,0 +1,226 @@
+2022-09-02 21:39:17,897  INFO [main] LoginTest:20 - ****************************** Starting test cases execution  *****************************************
+2022-09-02 21:39:18,157 DEBUG [main] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2022-09-02 21:39:18,164 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-09-02 21:39:18,164 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-09-02 21:39:18,173 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7ceb3185
+2022-09-02 21:39:18,212 DEBUG [main] PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+2022-09-02 21:39:18,213 DEBUG [main] PlatformDependent0:954 - Java version: 10
+2022-09-02 21:39:18,217 DEBUG [main] PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+2022-09-02 21:39:18,218 DEBUG [main] PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+2022-09-02 21:39:18,218 DEBUG [main] PlatformDependent0:202 - java.nio.Buffer.address: available
+2022-09-02 21:39:18,218 DEBUG [main] PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-09-02 21:39:18,223 DEBUG [main] PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+2022-09-02 21:39:18,228 DEBUG [main] PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @30c93896
+2022-09-02 21:39:18,228 DEBUG [main] PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-09-02 21:39:18,228 DEBUG [main] PlatformDependent:1116 - sun.misc.Unsafe: available
+2022-09-02 21:39:18,254 DEBUG [main] PlatformDependent:1227 - maxDirectMemory: 2078277632 bytes (maybe)
+2022-09-02 21:39:18,256 DEBUG [main] PlatformDependent:1246 - -Dio.netty.tmpdir: C:\Users\Rahul\AppData\Local\Temp (java.io.tmpdir)
+2022-09-02 21:39:18,256 DEBUG [main] PlatformDependent:1325 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-09-02 21:39:18,260 DEBUG [main] PlatformDependent:1076 - Platform: Windows
+2022-09-02 21:39:18,264 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2022-09-02 21:39:18,266 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-09-02 21:39:18,270 DEBUG [main] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2022-09-02 21:39:18,270 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-09-02 21:39:18,285 DEBUG [main] PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-09-02 21:39:18,323 DEBUG [main] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-09-02 21:39:18,324 DEBUG [main] InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-09-02 21:39:18,676 DEBUG [main] JdkSslContext:97 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2022-09-02 21:39:18,678 DEBUG [main] JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2022-09-02 21:39:18,724 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2022-09-02 21:39:18,742 DEBUG [main] NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2022-09-02 21:39:18,742 DEBUG [main] NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-09-02 21:39:18,816 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2022-09-02 21:39:18,816 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2022-09-02 21:39:18,816 DEBUG [main] PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2022-09-02 21:39:18,816 DEBUG [main] PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2022-09-02 21:39:18,816 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2022-09-02 21:39:18,816 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2022-09-02 21:39:18,816 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2022-09-02 21:39:18,816 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-09-02 21:39:18,816 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-09-02 21:39:18,816 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-09-02 21:39:18,816 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-09-02 21:39:18,816 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-09-02 21:39:18,834 DEBUG [main] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-09-02 21:39:18,834 DEBUG [main] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-09-02 21:39:18,834 DEBUG [main] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-09-02 21:39:20,409 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 21548 (auto-detected)
+2022-09-02 21:39:20,415 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2022-09-02 21:39:20,416 DEBUG [Forwarding newSession on session null to remote] NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2022-09-02 21:39:20,573 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-09-02 21:39:20,575 DEBUG [Forwarding newSession on session null to remote] NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-09-02 21:39:20,683 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 38:d5:7a:ff:fe:53:2a:5d (auto-detected)
+2022-09-02 21:39:20,802 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-09-02 21:39:20,802 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-09-02 21:39:20,802 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1c5955b2
+2022-09-02 21:39:20,832 DEBUG [AsyncHttpClient-1-2] Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-09-02 21:39:20,832 DEBUG [AsyncHttpClient-1-2] Recycler:86 - -Dio.netty.recycler.ratio: 8
+2022-09-02 21:39:20,832 DEBUG [AsyncHttpClient-1-2] Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2022-09-02 21:39:20,832 DEBUG [AsyncHttpClient-1-2] Recycler:88 - -Dio.netty.recycler.blocking: false
+2022-09-02 21:39:22,274 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-09-02 21:39:22,677 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x4f6718ca1d3d7e27
+2022-09-02 21:39:22,754  INFO [main] LoginTest:24 - launching chrome broswer
+2022-09-02 21:39:24,602  INFO [main] LoginTest:31 - entering application URL
+2022-09-02 21:39:24,603  WARN [main] LoginTest:32 - Hey this just a warning message
+2022-09-02 21:39:24,604 FATAL [main] LoginTest:33 - hey this is just fatal error message
+2022-09-02 21:39:24,604 DEBUG [main] LoginTest:34 - this is debug message
+2022-09-02 21:39:24,605  INFO [main] LoginTest:40 - ****************************** starting test case *****************************************
+2022-09-02 21:39:24,605  INFO [main] LoginTest:41 - ****************************** freeCrmTitleTest *****************************************
+2022-09-02 21:39:24,637  INFO [main] LoginTest:44 - login page title is--->Facebook â€“ log in or sign up
+2022-09-02 21:39:24,644  INFO [main] LoginTest:47 - ****************************** ending test case *****************************************
+2022-09-02 21:39:24,644  INFO [main] LoginTest:48 - ****************************** freeCrmTitleTest *****************************************
+2022-09-02 21:39:25,564  INFO [main] LoginTest:70 - ****************************** Browser is closed *****************************************
+2022-09-02 21:39:25,578  INFO [main] LoginTest:20 - ****************************** Starting test cases execution  *****************************************
+2022-09-02 21:39:27,546  INFO [main] LoginTest:24 - launching chrome broswer
+2022-09-02 21:39:29,291  INFO [main] LoginTest:31 - entering application URL
+2022-09-02 21:39:29,293  WARN [main] LoginTest:32 - Hey this just a warning message
+2022-09-02 21:39:29,293 FATAL [main] LoginTest:33 - hey this is just fatal error message
+2022-09-02 21:39:29,294 DEBUG [main] LoginTest:34 - this is debug message
+2022-09-02 21:39:29,295  INFO [main] LoginTest:54 - ****************************** starting test case *****************************************
+2022-09-02 21:39:29,296  INFO [main] LoginTest:55 - ****************************** freemCRMLogoTest *****************************************
+2022-09-02 21:39:29,369  INFO [main] LoginTest:60 - ****************************** ending test case *****************************************
+2022-09-02 21:39:29,373  INFO [main] LoginTest:61 - ****************************** freemCRMLogoTest *****************************************
+2022-09-02 21:39:30,222  INFO [main] LoginTest:70 - ****************************** Browser is closed *****************************************
+2022-09-03 08:11:23,987  INFO [main] LoginTest:20 - ****************************** Starting test cases execution  *****************************************
+2022-09-03 08:11:24,205 DEBUG [main] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2022-09-03 08:11:24,211 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-09-03 08:11:24,212 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-09-03 08:11:24,217 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4671115f
+2022-09-03 08:11:24,249 DEBUG [main] PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+2022-09-03 08:11:24,249 DEBUG [main] PlatformDependent0:954 - Java version: 10
+2022-09-03 08:11:24,253 DEBUG [main] PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+2022-09-03 08:11:24,255 DEBUG [main] PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+2022-09-03 08:11:24,256 DEBUG [main] PlatformDependent0:202 - java.nio.Buffer.address: available
+2022-09-03 08:11:24,256 DEBUG [main] PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-09-03 08:11:24,258 DEBUG [main] PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+2022-09-03 08:11:24,258 DEBUG [main] PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3adcc812
+2022-09-03 08:11:24,260 DEBUG [main] PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-09-03 08:11:24,261 DEBUG [main] PlatformDependent:1116 - sun.misc.Unsafe: available
+2022-09-03 08:11:24,286 DEBUG [main] PlatformDependent:1227 - maxDirectMemory: 2078277632 bytes (maybe)
+2022-09-03 08:11:24,289 DEBUG [main] PlatformDependent:1246 - -Dio.netty.tmpdir: C:\Users\Rahul\AppData\Local\Temp (java.io.tmpdir)
+2022-09-03 08:11:24,290 DEBUG [main] PlatformDependent:1325 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-09-03 08:11:24,290 DEBUG [main] PlatformDependent:1076 - Platform: Windows
+2022-09-03 08:11:24,295 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2022-09-03 08:11:24,296 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-09-03 08:11:24,301 DEBUG [main] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2022-09-03 08:11:24,301 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-09-03 08:11:24,312 DEBUG [main] PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-09-03 08:11:24,354 DEBUG [main] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-09-03 08:11:24,354 DEBUG [main] InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-09-03 08:11:24,634 DEBUG [main] JdkSslContext:97 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2022-09-03 08:11:24,634 DEBUG [main] JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2022-09-03 08:11:24,678 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2022-09-03 08:11:24,691 DEBUG [main] NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2022-09-03 08:11:24,691 DEBUG [main] NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-09-03 08:11:24,753 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2022-09-03 08:11:24,755 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2022-09-03 08:11:24,755 DEBUG [main] PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2022-09-03 08:11:24,755 DEBUG [main] PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2022-09-03 08:11:24,755 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2022-09-03 08:11:24,756 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2022-09-03 08:11:24,756 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2022-09-03 08:11:24,756 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-09-03 08:11:24,757 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-09-03 08:11:24,757 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-09-03 08:11:24,757 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-09-03 08:11:24,757 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-09-03 08:11:24,770 DEBUG [main] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-09-03 08:11:24,772 DEBUG [main] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-09-03 08:11:24,773 DEBUG [main] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-09-03 08:11:25,681 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 19540 (auto-detected)
+2022-09-03 08:11:25,686 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2022-09-03 08:11:25,686 DEBUG [Forwarding newSession on session null to remote] NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2022-09-03 08:11:25,776 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-09-03 08:11:25,776 DEBUG [Forwarding newSession on session null to remote] NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-09-03 08:11:25,856 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 38:d5:7a:ff:fe:53:2a:5d (auto-detected)
+2022-09-03 08:11:25,906 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-09-03 08:11:25,916 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-09-03 08:11:25,916 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@197f2679
+2022-09-03 08:11:25,941 DEBUG [AsyncHttpClient-1-2] Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-09-03 08:11:25,946 DEBUG [AsyncHttpClient-1-2] Recycler:86 - -Dio.netty.recycler.ratio: 8
+2022-09-03 08:11:25,946 DEBUG [AsyncHttpClient-1-2] Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2022-09-03 08:11:25,946 DEBUG [AsyncHttpClient-1-2] Recycler:88 - -Dio.netty.recycler.blocking: false
+2022-09-03 08:11:26,969 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-09-03 08:11:27,241 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x61c468e4e6d02b32
+2022-09-03 08:11:27,299  INFO [main] LoginTest:24 - launching chrome broswer
+2022-09-05 09:57:48,307  INFO [main] LoginTest:20 - ****************************** Starting test cases execution  *****************************************
+2022-09-05 09:57:48,511 DEBUG [main] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2022-09-05 09:57:48,521 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-09-05 09:57:48,521 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-09-05 09:57:48,530 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5ddcc487
+2022-09-05 09:57:48,556 DEBUG [main] PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+2022-09-05 09:57:48,556 DEBUG [main] PlatformDependent0:954 - Java version: 10
+2022-09-05 09:57:48,561 DEBUG [main] PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+2022-09-05 09:57:48,567 DEBUG [main] PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+2022-09-05 09:57:48,569 DEBUG [main] PlatformDependent0:202 - java.nio.Buffer.address: available
+2022-09-05 09:57:48,572 DEBUG [main] PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-09-05 09:57:48,576 DEBUG [main] PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+2022-09-05 09:57:48,576 DEBUG [main] PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @6ccdb29f
+2022-09-05 09:57:48,582 DEBUG [main] PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-09-05 09:57:48,582 DEBUG [main] PlatformDependent:1116 - sun.misc.Unsafe: available
+2022-09-05 09:57:48,617 DEBUG [main] PlatformDependent:1227 - maxDirectMemory: 2078277632 bytes (maybe)
+2022-09-05 09:57:48,622 DEBUG [main] PlatformDependent:1246 - -Dio.netty.tmpdir: C:\Users\Rahul\AppData\Local\Temp (java.io.tmpdir)
+2022-09-05 09:57:48,623 DEBUG [main] PlatformDependent:1325 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-09-05 09:57:48,625 DEBUG [main] PlatformDependent:1076 - Platform: Windows
+2022-09-05 09:57:48,627 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2022-09-05 09:57:48,628 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-09-05 09:57:48,632 DEBUG [main] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2022-09-05 09:57:48,636 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-09-05 09:57:48,652 DEBUG [main] PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-09-05 09:57:48,686 DEBUG [main] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-09-05 09:57:48,686 DEBUG [main] InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-09-05 09:57:48,933 DEBUG [main] JdkSslContext:97 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2022-09-05 09:57:48,933 DEBUG [main] JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2022-09-05 09:57:48,971 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2022-09-05 09:57:48,997 DEBUG [main] NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2022-09-05 09:57:48,997 DEBUG [main] NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-09-05 09:57:49,100 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2022-09-05 09:57:49,101 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2022-09-05 09:57:49,102 DEBUG [main] PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2022-09-05 09:57:49,102 DEBUG [main] PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2022-09-05 09:57:49,103 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2022-09-05 09:57:49,103 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2022-09-05 09:57:49,104 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2022-09-05 09:57:49,104 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-09-05 09:57:49,104 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-09-05 09:57:49,105 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-09-05 09:57:49,105 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-09-05 09:57:49,105 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-09-05 09:57:49,122 DEBUG [main] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-09-05 09:57:49,123 DEBUG [main] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-09-05 09:57:49,124 DEBUG [main] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-09-05 09:57:51,178 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 3548 (auto-detected)
+2022-09-05 09:57:51,181 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2022-09-05 09:57:51,181 DEBUG [Forwarding newSession on session null to remote] NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2022-09-05 09:57:51,346 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-09-05 09:57:51,350 DEBUG [Forwarding newSession on session null to remote] NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-09-05 09:57:51,522 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 38:d5:7a:ff:fe:53:2a:5d (auto-detected)
+2022-09-05 09:57:51,593 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-09-05 09:57:51,593 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-09-05 09:57:51,593 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@768f2409
+2022-09-05 09:57:51,618 DEBUG [AsyncHttpClient-1-2] Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-09-05 09:57:51,618 DEBUG [AsyncHttpClient-1-2] Recycler:86 - -Dio.netty.recycler.ratio: 8
+2022-09-05 09:57:51,619 DEBUG [AsyncHttpClient-1-2] Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2022-09-05 09:57:51,619 DEBUG [AsyncHttpClient-1-2] Recycler:88 - -Dio.netty.recycler.blocking: false
+2022-09-05 09:57:53,389 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-09-05 09:57:53,811 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x8d579eab0b253106
+2022-09-05 09:57:53,888  INFO [main] LoginTest:24 - launching chrome broswer
+2022-09-05 09:57:56,018  INFO [main] LoginTest:31 - entering application URL
+2022-09-05 09:57:56,018  WARN [main] LoginTest:32 - Hey this just a warning message
+2022-09-05 09:57:56,018 FATAL [main] LoginTest:33 - hey this is just fatal error message
+2022-09-05 09:57:56,023 DEBUG [main] LoginTest:34 - this is debug message
+2022-09-05 09:57:56,026  INFO [main] LoginTest:40 - ****************************** starting test case *****************************************
+2022-09-05 09:57:56,026  INFO [main] LoginTest:41 - ****************************** freeCrmTitleTest *****************************************
+2022-09-05 09:57:56,045  INFO [main] LoginTest:44 - login page title is--->Facebook – log in or sign up
+2022-09-05 09:57:56,856  INFO [main] LoginTest:70 - ****************************** Browser is closed *****************************************
+2022-09-05 09:57:56,862  INFO [main] LoginTest:20 - ****************************** Starting test cases execution  *****************************************
+2022-09-05 09:57:58,816  INFO [main] LoginTest:24 - launching chrome broswer
+2022-09-05 09:58:01,127  INFO [main] LoginTest:31 - entering application URL
+2022-09-05 09:58:01,127  WARN [main] LoginTest:32 - Hey this just a warning message
+2022-09-05 09:58:01,128 FATAL [main] LoginTest:33 - hey this is just fatal error message
+2022-09-05 09:58:01,130 DEBUG [main] LoginTest:34 - this is debug message
+2022-09-05 09:58:01,135  INFO [main] LoginTest:54 - ****************************** starting test case *****************************************
+2022-09-05 09:58:01,136  INFO [main] LoginTest:55 - ****************************** freemCRMLogoTest *****************************************
+2022-09-05 09:58:01,214  INFO [main] LoginTest:60 - ****************************** ending test case *****************************************
+2022-09-05 09:58:01,216  INFO [main] LoginTest:61 - ****************************** freemCRMLogoTest *****************************************
+2022-09-05 09:58:02,044  INFO [main] LoginTest:70 - ****************************** Browser is closed *****************************************
